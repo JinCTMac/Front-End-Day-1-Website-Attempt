@@ -1,0 +1,253 @@
+/* tag selectors */
+
+body {
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 2;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 5px;
+  width: 5%;
+  margin-top: 4rem;
+}
+
+h1 {
+  margin: 50px auto 0px auto;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 6rem;
+  font-weight: 900;
+  color: #66BFBF;
+}
+
+h2 {
+  margin: 2rem 0 2rem 0;
+  font-family: 'Roboto Mono', sans-serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+h3 {
+  margin-top: 0px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 400;
+}
+
+a {
+  color: #0F52BA;
+}
+
+p {
+  margin: 2rem 0 2rem 0;
+  font-size: 1.5rem;
+}
+
+/*body selectors*/
+
+
+.top-container {
+  background-color: #FFEACA;
+  padding: 2rem 4rem;
+}
+
+.top-container p {
+  font-family: 'Roboto Mono', sans-serif;
+  text-align: left;
+}
+
+.top-container h2 {
+  font-family: 'Roboto Mono', sans-serif;
+  text-align: left;
+}
+
+.top-container h3 {
+  font-family: 'Roboto Mono', sans-serif;
+  text-align: left;
+}
+
+.intro:hover {
+  text-decoration: underline;
+}
+
+.profile {
+  height: 400px;
+  border-radius: 20%;
+  margin: 2rem 0 0 0;
+  float: right;
+  position: relative;
+}
+
+.profile:hover {
+  transform: rotate(180deg);
+}
+
+.slogan {
+  text-decoration: underline;
+}
+
+.middle-container {
+  background-color: white;
+  padding: 2rem 4rem;
+}
+
+.gamebox {
+  margin: 2rem auto;
+}
+
+.gamebox:hover {
+  color: #002366;
+}
+
+.game-desc {
+  margin: 1em 0;
+}
+
+.language {
+  margin: 2rem auto;
+}
+
+.language:hover {
+  color: #002366;
+}
+
+#middle-content-2 {
+  background-color: #FFEACA;
+  padding: 2rem 4rem;
+}
+
+#middle-content-3 {
+  background-color: white;
+  padding: 2rem 4rem;
+}
+
+/* Bootstrap cards */
+
+.card {
+  height: auto;
+  box-shadow: 2px 2px 40px #F5C6AA;
+}
+
+ .card:hover {
+   border: 2px solid black;
+   opacity: 100%;
+ }
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+@media (max-width: 960px) {
+  .card img {
+    height: 400px;
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .card img {
+    height: 200px;
+    width: 150px;
+    margin: auto;
+  }
+}
+
+/* Footer */
+
+.social-button {
+  text-align: center;
+}
+
+.social-media-text {
+  text-decoration: none;
+}
+
+.footer-row {
+  background-color: #FFEACA;
+  padding: 2rem 4rem 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Navbar */
+
+.whole-navbar {
+  margin: 0 1rem;
+}
+
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+
+.navbar-brand {
+  font-family: 'Palette Mosaic', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.menu-bar:hover {
+  color: black;
+  font-weight: bold;
+}
+
+/* Banner styling */
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner-content h1:hover {
+  text-decoration: underline;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Button styling */
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #1EDD88;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #1BCB7F;
+  color: white;
+}
